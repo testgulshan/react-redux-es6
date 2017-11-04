@@ -1,0 +1,19 @@
+#app {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4d4d4d;
+  min-width: 550px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+a.active,
+a.active:focus {
+  color: #f59700;
+  text-decoration: none;
+}
+
+header {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
