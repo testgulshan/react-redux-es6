@@ -17,3 +17,13 @@ header {
   padding-top: 20px;
   margin-bottom: 20px;
 }
+
+.circle span {
+  display: block;
+  background: #1f8dd4;
+  border-radius: 50%;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+}
