@@ -27,3 +27,55 @@ header {
   width: 20px;
   height: 20px;
 }
+
+.graph-view {
+  border: 2px solid #ddd;
+  margin: 20px;
+  position: relative;
+}
+
+.data-points {
+  transition: all 0.5s ease;
+  &:hover {
+    stroke: #71ffe6;
+    fill: #00816a;
+  }
+}
+
+div.tooltip:after, div.tooltip:before {
+  content: '';
+  left: 50%;
+  border-width: 8px;
+  margin-left: -4px;
+  position: absolute;
+  bottom: -17px;
+  border-style: solid;
+  border-color: #999 transparent transparent;
+}
+
+div.tooltip:after {
+  content: '';
+  border-width: 8px;
+  position: absolute;
+  bottom: -16px;
+  border-style: solid;
+  margin-left: -4px;
+  left: 50%;
+  border-color: #fff transparent transparent;
+}
+
+div.tooltip {
+  position: absolute;
+  max-width: 100px;
+  min-width: 100px;
+  height: auto;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  // box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  posinter-events: none; /*VERY IMPORTANT*/
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
