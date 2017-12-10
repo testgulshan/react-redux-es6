@@ -2,6 +2,7 @@ import React from 'react';
 import {Route, IndexRoute} from 'react-router';
 import App from './components/App';
 import HomePage from './components/pages/HomePage';
+import GraphPage from './components/pages/GraphPage';
 import AboutPage from './components/pages/AboutPage';
 import PrivacyPage from './components/pages/PrivacyPage';
 import CoursesPage from './components/pages/CoursesPage';
@@ -14,5 +15,6 @@ export default (
     <Route path="privacy" component={PrivacyPage} />
     <Route path="courses" component={CoursesPage} />
     <Route path="animation" component={AnimationPage} />
+    <Route path="graph" component={GraphPage} />
   </Route>
 );
