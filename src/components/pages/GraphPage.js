@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import * as d3 from 'd3';
 
-class CoursesPage extends React.Component {
+class CoursesPage extends Component {
   constructor(props) {
     super(props);
 
@@ -119,7 +119,7 @@ class CoursesPage extends React.Component {
           tooltip.transition()
             .duration(300)
             .style('opacity', 0);
-        })
+        });
   }
 
   render() {
