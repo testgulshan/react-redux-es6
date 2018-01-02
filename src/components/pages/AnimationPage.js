@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Circle from '../animation/Circle';
 import {Motion, spring} from 'react-motion';
 
-class AnimationPage extends Component {
+class AnimationPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

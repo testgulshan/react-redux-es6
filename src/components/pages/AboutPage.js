@@ -1,12 +1,14 @@
 import React from 'react';
 
-const AboutPage = () => {
-  return (
-    <div>
-      <h1>About</h1>
-      <p>This application is using React, Redux, React Router and a variety of other helpful libraries</p>
-    </div>
-  );
-};
+class AboutPage extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>About</h1>
+        <p>This application is using React, Redux, React Router and a variety of other helpful libraries</p>
+      </div>
+    );
+  }
+}
 
 export default AboutPage;
