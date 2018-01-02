@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as courseActions from '../../actions/courseActions';
+import * as courseActions from '../../../actions/courseActions';
 import CourseList from './CourseList';
 
-class CoursesPage extends React.Component {
+class CoursesPage extends Component {
   constructor(props, context) {
     super(props, context);
   }
