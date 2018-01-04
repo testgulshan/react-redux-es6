@@ -13,7 +13,7 @@ class AnimationPage extends Component {
   }
 
   componentDidMount() {
-    this.setState((prevState) => {
+    this.setState((prevState) => {  // eslint-disable-line react/no-did-mount-set-state
       return {isVisible: !prevState.isVisible};
     });
   }
